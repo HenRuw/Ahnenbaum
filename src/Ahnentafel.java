@@ -1,6 +1,6 @@
 public class Ahnentafel {
 
-    private BinaryTree ahnenbaum;
+    private BinaryTree<Person> ahnenbaum;
     public Ahnentafel() {
         ahnenbaum = new BinaryTree();
     }
