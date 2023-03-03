@@ -29,7 +29,7 @@ public class Ahnentafel {
         return out;
     }
 
-    public String InOrder(BinaryTree<Person> pTree){
+    public String inOrder(BinaryTree<Person> pTree){
         String out = "";
         if (!pTree.getLeftTree().isEmpty()){
             out += preOrder(pTree.getLeftTree());
