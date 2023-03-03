@@ -4,4 +4,9 @@ public class Ahnentafel {
     public Ahnentafel() {
         ahnenbaum = new BinaryTree();
     }
+
+    public BinaryTree<Person> getAhnenbaum() {
+        return ahnenbaum;
+    }
+
 }
